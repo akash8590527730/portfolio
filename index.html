@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Baskervville+SC&family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ga+Maamli&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- aos cdn script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <img class="logo" src="https://img.freepik.com/free-vector/colorful-abstract-icon-gradient-logo_474888-2277.jpg" alt="">
+            <!-- LINKS -->
+            <ul>
+                <li class="listitems"><a class="links" href="#home">HOME</a></li>
+                <li class="listitems"><a class="links" href="#about">ABOUT</a></li>
+                <li class="listitems"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="listitems"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+         </nav>
+         <!-- home -->
+          <section id="home">
+              <div class="home-content">
+                <h1 class="animate__animated animate__fadeInLeft" id="username">I'm Ana <span id="lname">Steel</span></h1>
+                <p id="user-details">This is my offiial portfolia website to describe all
+                    <br>
+                    Details and work expirence in Web Development
+                </p>
+                <a id="download"  href="">DOWNLOAD NOW</a>
+              </div>
+              <div class="home-img">
+              <!-- shape -->
+               <img id="shape" class="group1" src="./images/shape.png" alt="">
+               <!-- /girl -->
+               <img id="girl" class="group1" src="./images/girl.png" alt="">
+            </div>
+               
+          </section>
+          <!-- about -->
+           <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About me</h2>
+                <span class="sub-head">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div data-aos="fade-right" class="about-image">
+                    <img src="https://img.freepik.com/premium-vector/animation-character-portrait-woman-happy-pose-flat-design_40876-2329.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi minus saepe quo nam molestiae ut. 
+                         Nostrum odio consequuntur voluptatum, quo quaerat id ipsa quasi delectus nisi fugit recusandae asperiores!</p>
+                    <div class="information">
+                        <div class="info-box">
+                        <i class="fa-solid fa-user"></i>
+                        <span >Ana Steel</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>9873778383</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>anasteel@gmail.com</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+           </section>
+           <!-- skill -->
+            <section id="skill">
+                <div class="section-head">
+                    <h2 class="main-head">SKILLS</h2>
+                    <span class="sub-head">MY SKILLS</span>
+                </div>
+                <div class="skill-content">
+                    <div class="progress-bars">
+                        <div class="bars">
+                            <h3 class="bar-head">HTML</h3>
+                            <span class="bar-percent">89%</span>
+                            <div class="base-bar"></div>
+                            <div data-aos="zoom-in-right" data-aos-duration="3000" class="base-bar html-bar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="bar-head">CSS</h3>
+                            <span class="bar-percent">80%</span>
+                            <div class="base-bar"></div>
+                            <div data-aos="zoom-in-right" data-aos-duration="3000" class="base-bar css-bar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="bar-head">JS</h3>
+                            <span class="bar-percent">85%</span>
+                            <div class="base-bar"></div>
+                            <div data-aos="zoom-in-right" data-aos-duration="3000" class="base-bar js-bar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="bar-head">REACT</h3>
+                            <span class="bar-percent">78%</span>
+                            <div class="base-bar"></div>
+                            <div data-aos="zoom-in-right" data-aos-duration="3000" class="base-bar react-bar"></div>
+                        </div>
+                        
+                    </div>
+                    <div data-aos="fade-right" class="skill-img"><img class="myskill" src="https://www.ag5.com/wp-content/uploads/2018/11/What-are-skills-header.png" alt=""></div>
+                </div>
+            </section>
+
+            <!-- contact -->
+            <section id="contact">
+                <div class="section-head">
+                    <h2 class="main-head">CONTACT</h2>
+                    <span class="sub-head">MY CONTACTS</span>
+                </div>
+                <div class="icon-collections">
+<div class="icon">
+                        <a target="_blank" href=""><i class="fa-brands fa-linkedin-in brands"></i></a>
+              </div>
+              
+              <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+      </div>
+
+      <div class="icon">
+        <a target="_blank" href=""><i class="fa-brands fa-facebook brands"></i></a>
+</div>
+<div class="icon">
+    <a target="_blank" href=""><i class="fa-brands fa-instagram brands"></i></a>
+</div>
+<div class="icon">
+    <a target="_blank" href=""><i class="fa-solid fa-envelope brands"></i></a>
+</div>
+
+              </div>
+                </section>
+
+             <!-- footer -->
+              <footer>
+<p id="copyright">&copy; My Portfolio Website -June 2024,All Rights Reserved to &reg; Ana steel</p>
+              
+              <div class="icon up-arrow">
+                <a  href="#container"><i class="fa-solid fa-angle-up brands"></i></i></a>
+      </div>
+    </footer>
+
+        </div>
+
+</body>
+
+</html>
